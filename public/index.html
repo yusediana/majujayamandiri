@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Beranda - Desa Gunung Kendil</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .left,
+        .right {
+            flex: 1 1 45%;
+        }
+        
+        .slider img {
+            width: 45%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .highlight-berita {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang di Website Resmi</h1>
+        <h2>Desa Gunung Kendil</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="berita.html">Berita</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Info Singkat Desa</h2>
+            <p>Desa Gunung Kendil merupakan desa yang terletak di Kecamatan Tirtomoyo, Kabupaten Wonogiri. Desa ini memiliki luas wilayah sekitar 250 hektar dan dihuni oleh lebih dari 2.000 jiwa. Desa ini dikenal dengan keindahan alamnya serta kehidupan
+                masyarakat yang harmonis.</p>
+        </section>
+
+        <div class="container">
+            <div class="left">
+                <h2>Galeri Foto Terbaru</h2>
+                <div class="slider">
+                    <img src="images/foto1.jpeg" alt="Foto kegiatan desa" />
+                    <img src="images/fotro2.jpeg" alt="Foto gotong royong" />
+                </div>
+            </div>
+            <div class="right">
+                <h2>Berita Terkini</h2>
+                <div class="highlight-berita">
+                    <h3>Musyawarah Desa Digelar</h3>
+                    <p>Musdes pada 3 Juni 2025 membahas rencana pembangunan jalan. Warga antusias menyampaikan ide dan aspirasi.</p>
+                    <a href="berita.html">Baca selengkapnya...</a>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <h2>Agenda Kegiatan</h2>
+            <ul>
+                <li>📅 10 Juni 2025 - Kerja bakti bersih lingkungan</li>
+                <li>📅 17 Juni 2025 - Pelatihan UMKM bagi warga</li>
+                <li>📅 25 Juni 2025 - Musyawarah Desa (Musdes)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Pengumuman</h2>
+            <p>🛑 <strong>Perhatian:</strong> Bagi warga yang belum melakukan pendataan Kartu Keluarga, harap segera menghubungi Ketua RT masing-masing sebelum tanggal 15 Juni 2025.</p>
+        </section>
+
+        <section>
+            <h2>Sambutan Kepala Desa</h2>
+            <p>
+                "Selamat datang di website resmi Desa Gunung Kendil. Semoga website ini dapat menjadi sarana informasi dan komunikasi antara pemerintahan desa dan seluruh warga masyarakat. Mari bersama-sama membangun desa yang mandiri dan sejahtera."
+                <br><br>
+                <em>— Kepala Desa Gunung Kendil</em>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Desa Gunung Kendil.
+    </footer>
+</body>
+
+</html>
